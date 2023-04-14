@@ -312,10 +312,15 @@ footer .row .head-s::before {
         transform: scale(0.9);
     }
     .section2 .cards .card .poetry .sm-font{
-        font-size: 11px;
+        font-size: 13px;
     }
     .section2 .cards .card .poetry .lg-font{
-        font-size: 12px;
+        font-size: 13px;
+    }
+}
+@media (max-width:380px) {
+    .section2 .cards .card .head img{
+        width: 25px;
     }
 }
 @media (max-width:350px) {
@@ -323,13 +328,13 @@ footer .row .head-s::before {
         transform: scale(0.8);
     }
     .section2 .cards .card .poetry .sm-font{
-        font-size: 10px;
+        font-size: 13px;
     }
     .section2 .cards .card .poetry-name{
-        font-size: 15px;
+        font-size: 13px;
     }
     .section2 .cards .card .poetry .lg-font{
-        font-size: 11px;
+        font-size: 13px;
     }
 }
 @media (max-width:380px) {

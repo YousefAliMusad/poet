@@ -183,13 +183,13 @@
     min-height: 100vh ;
 }
 .section2 .cards {
-    height:calc(100% - 50px);
+    min-height:0;
     display: grid;
     place-items: center ;
-    align-items: flex-start; 
+    align-items: flex-start;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 30px;
-    padding: 30px 15px;
+    gap: 15px;
+    padding: 15px;
 }
 .section2 .card {
     width: 400px;
@@ -240,14 +240,11 @@ footer .row .head-s::before {
 }
 @media (max-width:450px) {
     .section2 .cards .card {
-        transform: scale(0.9);
+        /* transform: scale(0.9); */
         width: 100%;
     }
     .section2 .cards {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    }
-    .section2 .cards .card {
-        transform: scale(0.9);
     }
     .section2 .cards .card .poetry .sm-font{
         font-size: 13px;
@@ -263,7 +260,7 @@ footer .row .head-s::before {
 }
 @media (max-width:350px) {
     .section2 .cards .card {
-        transform: scale(0.8);
+        /* transform: scale(0.8); */
     }
     .section2 .cards .card .poetry .sm-font{
         font-size: 13px;
@@ -276,12 +273,17 @@ footer .row .head-s::before {
     }
 }
 @media (max-width:380px) {
-    .title {
-        font-size: 35px;
+    .section2 .title {
+        font-size: 30px;
     }
 }
+/* @media (max-width:380px) {
+    .section2 .title-sp {
+        margin-bottom: ;
+    }
+} */
 @media (max-width:300px) {
-    .title {
-        font-size: 30px;
+    .section2 .title {
+        font-size: 25px;
     }
 }
